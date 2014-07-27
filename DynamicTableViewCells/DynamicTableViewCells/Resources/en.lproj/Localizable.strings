@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  DynamicTableViewCells
+
+  Created by Abel Sánchez Custodio on 25/07/14.
+  Copyright (c) 2014 Abel Sanchez Custodio. All rights reserved.
+*/
+
+/* Localized versions of Info.plist keys */
+
+"text_one_line" = "Ut rutrum viverra consequat.";
+"text_two_lines" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+"text_three_lines" = "Suspendisse vestibulum eu lectus at bibendum. Aenean orci purus, pharetra id eros at,";
+"text_four_lines" = "Nullam sit amet ultrices turpis, pellentesque faucibus erat. Pellentesque feugiat velit id auctor tincidunt. Morbi in velit pharetra,";
+"text_five_lines" = "Nulla elementum felis nisi, vel scelerisque lacus ultrices quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.";

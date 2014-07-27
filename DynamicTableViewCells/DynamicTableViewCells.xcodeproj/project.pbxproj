@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347170541982D46B00CB1755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170531982D46B00CB1755 /* Foundation.framework */; };
+		347170561982D46B00CB1755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170551982D46B00CB1755 /* CoreGraphics.framework */; };
+		347170581982D46B00CB1755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170571982D46B00CB1755 /* UIKit.framework */; };
+		347170731982D46B00CB1755 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170721982D46B00CB1755 /* XCTest.framework */; };
+		347170741982D46B00CB1755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170531982D46B00CB1755 /* Foundation.framework */; };
+		347170751982D46B00CB1755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347170571982D46B00CB1755 /* UIKit.framework */; };
+		3471707F1982D46B00CB1755 /* DynamicTableViewCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471707E1982D46B00CB1755 /* DynamicTableViewCellsTests.m */; };
+		347170961982D5A500CB1755 /* DYCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471708A1982D5A500CB1755 /* DYCAppDelegate.m */; };
+		347170971982D5A500CB1755 /* DYCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471708A1982D5A500CB1755 /* DYCAppDelegate.m */; };
+		3471709A1982D5A500CB1755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471708E1982D5A500CB1755 /* Images.xcassets */; };
+		3471709B1982D5A500CB1755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471708E1982D5A500CB1755 /* Images.xcassets */; };
+		3471709E1982D5A500CB1755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170951982D5A500CB1755 /* main.m */; };
+		3471709F1982D5A500CB1755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170951982D5A500CB1755 /* main.m */; };
+		347170A21982D6BC00CB1755 /* DYCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170A11982D6BC00CB1755 /* DYCHomeViewController.m */; };
+		347170A31982D6BC00CB1755 /* DYCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170A11982D6BC00CB1755 /* DYCHomeViewController.m */; };
+		347170A91982D87C00CB1755 /* DYCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170A81982D87C00CB1755 /* DYCObject.m */; };
+		347170AA1982D87D00CB1755 /* DYCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170A81982D87C00CB1755 /* DYCObject.m */; };
+		347170AD1982DA4400CB1755 /* DYCObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170AC1982DA4400CB1755 /* DYCObjectCell.m */; };
+		347170AE1982DA4400CB1755 /* DYCObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170AC1982DA4400CB1755 /* DYCObjectCell.m */; };
+		347170B11982E50D00CB1755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347170B01982E50D00CB1755 /* Main.storyboard */; };
+		347170B21982E50D00CB1755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347170B01982E50D00CB1755 /* Main.storyboard */; };
+		347170B71982E60B00CB1755 /* DynamicTableViewCells-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347170B51982E60B00CB1755 /* DynamicTableViewCells-Info.plist */; };
+		347170D71982F27700CB1755 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 347170DA1982F27700CB1755 /* Localizable.strings */; };
+		347170D81982F27700CB1755 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 347170DA1982F27700CB1755 /* Localizable.strings */; };
+		347170DE1983C3DD00CB1755 /* DYCHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170DD1983C3DD00CB1755 /* DYCHomePresenter.m */; };
+		347170DF1983C3DD00CB1755 /* DYCHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 347170DD1983C3DD00CB1755 /* DYCHomePresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347170761982D46B00CB1755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347170481982D46B00CB1755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3471704F1982D46B00CB1755;
+			remoteInfo = DynamicTableViewCells;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347170501982D46B00CB1755 /* DynamicTableViewCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTableViewCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		347170531982D46B00CB1755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		347170551982D46B00CB1755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		347170571982D46B00CB1755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		347170711982D46B00CB1755 /* DynamicTableViewCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTableViewCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347170721982D46B00CB1755 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3471707A1982D46B00CB1755 /* DynamicTableViewCellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicTableViewCellsTests-Info.plist"; sourceTree = "<group>"; };
+		3471707E1982D46B00CB1755 /* DynamicTableViewCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewCellsTests.m; sourceTree = "<group>"; };
+		347170891982D5A500CB1755 /* DYCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCAppDelegate.h; sourceTree = "<group>"; };
+		3471708A1982D5A500CB1755 /* DYCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCAppDelegate.m; sourceTree = "<group>"; };
+		3471708E1982D5A500CB1755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		347170951982D5A500CB1755 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		347170A01982D6BC00CB1755 /* DYCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCHomeViewController.h; sourceTree = "<group>"; };
+		347170A11982D6BC00CB1755 /* DYCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCHomeViewController.m; sourceTree = "<group>"; };
+		347170A71982D87C00CB1755 /* DYCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCObject.h; sourceTree = "<group>"; };
+		347170A81982D87C00CB1755 /* DYCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCObject.m; sourceTree = "<group>"; };
+		347170AB1982DA4400CB1755 /* DYCObjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCObjectCell.h; sourceTree = "<group>"; };
+		347170AC1982DA4400CB1755 /* DYCObjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCObjectCell.m; sourceTree = "<group>"; };
+		347170B01982E50D00CB1755 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		347170B41982E5D400CB1755 /* DynamicTableViewCells-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DynamicTableViewCells-Prefix.pch"; path = "../DynamicTableViewCells-Prefix.pch"; sourceTree = "<group>"; };
+		347170B51982E60B00CB1755 /* DynamicTableViewCells-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DynamicTableViewCells-Info.plist"; path = "../DynamicTableViewCells-Info.plist"; sourceTree = "<group>"; };
+		347170D91982F27700CB1755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		347170DB1982F29600CB1755 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		347170DC1983C3DD00CB1755 /* DYCHomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCHomePresenter.h; sourceTree = "<group>"; };
+		347170DD1983C3DD00CB1755 /* DYCHomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCHomePresenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3471704D1982D46B00CB1755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347170561982D46B00CB1755 /* CoreGraphics.framework in Frameworks */,
+				347170581982D46B00CB1755 /* UIKit.framework in Frameworks */,
+				347170541982D46B00CB1755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3471706E1982D46B00CB1755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347170731982D46B00CB1755 /* XCTest.framework in Frameworks */,
+				347170751982D46B00CB1755 /* UIKit.framework in Frameworks */,
+				347170741982D46B00CB1755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347170471982D46B00CB1755 = {
+			isa = PBXGroup;
+			children = (
+				347170591982D46B00CB1755 /* DynamicTableViewCells */,
+				347170781982D46B00CB1755 /* DynamicTableViewCellsTests */,
+				347170521982D46B00CB1755 /* Frameworks */,
+				347170511982D46B00CB1755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347170511982D46B00CB1755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347170501982D46B00CB1755 /* DynamicTableViewCells.app */,
+				347170711982D46B00CB1755 /* DynamicTableViewCellsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347170521982D46B00CB1755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347170531982D46B00CB1755 /* Foundation.framework */,
+				347170551982D46B00CB1755 /* CoreGraphics.framework */,
+				347170571982D46B00CB1755 /* UIKit.framework */,
+				347170721982D46B00CB1755 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		347170591982D46B00CB1755 /* DynamicTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				347170A41982D86A00CB1755 /* Common */,
+				347170881982D5A500CB1755 /* Application */,
+				3471708B1982D5A500CB1755 /* Resources */,
+				3471708F1982D5A500CB1755 /* Sections */,
+				347170921982D5A500CB1755 /* Supporting Files */,
+			);
+			path = DynamicTableViewCells;
+			sourceTree = "<group>";
+		};
+		347170781982D46B00CB1755 /* DynamicTableViewCellsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3471707E1982D46B00CB1755 /* DynamicTableViewCellsTests.m */,
+				347170791982D46B00CB1755 /* Supporting Files */,
+			);
+			path = DynamicTableViewCellsTests;
+			sourceTree = "<group>";
+		};
+		347170791982D46B00CB1755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3471707A1982D46B00CB1755 /* DynamicTableViewCellsTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		347170881982D5A500CB1755 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				347170891982D5A500CB1755 /* DYCAppDelegate.h */,
+				3471708A1982D5A500CB1755 /* DYCAppDelegate.m */,
+				347170B01982E50D00CB1755 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3471708B1982D5A500CB1755 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3471708E1982D5A500CB1755 /* Images.xcassets */,
+				347170DA1982F27700CB1755 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3471708F1982D5A500CB1755 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				347170901982D5A500CB1755 /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		347170901982D5A500CB1755 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				347170911982D5A500CB1755 /* Views */,
+				347170A01982D6BC00CB1755 /* DYCHomeViewController.h */,
+				347170A11982D6BC00CB1755 /* DYCHomeViewController.m */,
+				347170DC1983C3DD00CB1755 /* DYCHomePresenter.h */,
+				347170DD1983C3DD00CB1755 /* DYCHomePresenter.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		347170911982D5A500CB1755 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				347170AB1982DA4400CB1755 /* DYCObjectCell.h */,
+				347170AC1982DA4400CB1755 /* DYCObjectCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		347170921982D5A500CB1755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				347170B51982E60B00CB1755 /* DynamicTableViewCells-Info.plist */,
+				347170B41982E5D400CB1755 /* DynamicTableViewCells-Prefix.pch */,
+				347170951982D5A500CB1755 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		347170A41982D86A00CB1755 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				347170A51982D86A00CB1755 /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		347170A51982D86A00CB1755 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347170A61982D86A00CB1755 /* Object */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		347170A61982D86A00CB1755 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				347170A71982D87C00CB1755 /* DYCObject.h */,
+				347170A81982D87C00CB1755 /* DYCObject.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3471704F1982D46B00CB1755 /* DynamicTableViewCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347170821982D46C00CB1755 /* Build configuration list for PBXNativeTarget "DynamicTableViewCells" */;
+			buildPhases = (
+				3471704C1982D46B00CB1755 /* Sources */,
+				3471704D1982D46B00CB1755 /* Frameworks */,
+				3471704E1982D46B00CB1755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTableViewCells;
+			productName = DynamicTableViewCells;
+			productReference = 347170501982D46B00CB1755 /* DynamicTableViewCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+		347170701982D46B00CB1755 /* DynamicTableViewCellsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347170851982D46C00CB1755 /* Build configuration list for PBXNativeTarget "DynamicTableViewCellsTests" */;
+			buildPhases = (
+				3471706D1982D46B00CB1755 /* Sources */,
+				3471706E1982D46B00CB1755 /* Frameworks */,
+				3471706F1982D46B00CB1755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347170771982D46B00CB1755 /* PBXTargetDependency */,
+			);
+			name = DynamicTableViewCellsTests;
+			productName = DynamicTableViewCellsTests;
+			productReference = 347170711982D46B00CB1755 /* DynamicTableViewCellsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347170481982D46B00CB1755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DYC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Abel Sanchez Custodio";
+				TargetAttributes = {
+					347170701982D46B00CB1755 = {
+						TestTargetID = 3471704F1982D46B00CB1755;
+					};
+				};
+			};
+			buildConfigurationList = 3471704B1982D46B00CB1755 /* Build configuration list for PBXProject "DynamicTableViewCells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 347170471982D46B00CB1755;
+			productRefGroup = 347170511982D46B00CB1755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3471704F1982D46B00CB1755 /* DynamicTableViewCells */,
+				347170701982D46B00CB1755 /* DynamicTableViewCellsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3471704E1982D46B00CB1755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3471709A1982D5A500CB1755 /* Images.xcassets in Resources */,
+				347170D71982F27700CB1755 /* Localizable.strings in Resources */,
+				347170B11982E50D00CB1755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3471706F1982D46B00CB1755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347170B71982E60B00CB1755 /* DynamicTableViewCells-Info.plist in Resources */,
+				347170D81982F27700CB1755 /* Localizable.strings in Resources */,
+				347170B21982E50D00CB1755 /* Main.storyboard in Resources */,
+				3471709B1982D5A500CB1755 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3471704C1982D46B00CB1755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347170DE1983C3DD00CB1755 /* DYCHomePresenter.m in Sources */,
+				3471709E1982D5A500CB1755 /* main.m in Sources */,
+				347170A91982D87C00CB1755 /* DYCObject.m in Sources */,
+				347170961982D5A500CB1755 /* DYCAppDelegate.m in Sources */,
+				347170AD1982DA4400CB1755 /* DYCObjectCell.m in Sources */,
+				347170A21982D6BC00CB1755 /* DYCHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3471706D1982D46B00CB1755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3471707F1982D46B00CB1755 /* DynamicTableViewCellsTests.m in Sources */,
+				347170DF1983C3DD00CB1755 /* DYCHomePresenter.m in Sources */,
+				347170AE1982DA4400CB1755 /* DYCObjectCell.m in Sources */,
+				347170AA1982D87D00CB1755 /* DYCObject.m in Sources */,
+				3471709F1982D5A500CB1755 /* main.m in Sources */,
+				347170A31982D6BC00CB1755 /* DYCHomeViewController.m in Sources */,
+				347170971982D5A500CB1755 /* DYCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347170771982D46B00CB1755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3471704F1982D46B00CB1755 /* DynamicTableViewCells */;
+			targetProxy = 347170761982D46B00CB1755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		347170DA1982F27700CB1755 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347170D91982F27700CB1755 /* en */,
+				347170DB1982F29600CB1755 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347170801982D46C00CB1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		347170811982D46C00CB1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347170831982D46C00CB1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTableViewCells/DynamicTableViewCells-Prefix.pch";
+				INFOPLIST_FILE = "DynamicTableViewCells/DynamicTableViewCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		347170841982D46C00CB1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTableViewCells/DynamicTableViewCells-Prefix.pch";
+				INFOPLIST_FILE = "DynamicTableViewCells/DynamicTableViewCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		347170861982D46C00CB1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DynamicTableViewCells.app/DynamicTableViewCells";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTableViewCells/DynamicTableViewCells-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DynamicTableViewCellsTests/DynamicTableViewCellsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		347170871982D46C00CB1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DynamicTableViewCells.app/DynamicTableViewCells";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTableViewCells/DynamicTableViewCells-Prefix.pch";
+				INFOPLIST_FILE = "DynamicTableViewCellsTests/DynamicTableViewCellsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3471704B1982D46B00CB1755 /* Build configuration list for PBXProject "DynamicTableViewCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347170801982D46C00CB1755 /* Debug */,
+				347170811982D46C00CB1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347170821982D46C00CB1755 /* Build configuration list for PBXNativeTarget "DynamicTableViewCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347170831982D46C00CB1755 /* Debug */,
+				347170841982D46C00CB1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		347170851982D46C00CB1755 /* Build configuration list for PBXNativeTarget "DynamicTableViewCellsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347170861982D46C00CB1755 /* Debug */,
+				347170871982D46C00CB1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347170481982D46B00CB1755 /* Project object */;
+}
